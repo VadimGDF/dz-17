@@ -1,0 +1,335 @@
+body{
+margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    max-width: 100%;
+}
+.logo-link{
+    text-decoration: none;
+}
+.holiday{
+    background: url("./desk-header\ 1.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 36px;
+}
+.logo-text{
+    width: 208px;
+    height: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    max-width: 100%;
+}
+.link-two{
+    max-width: 100%;
+    border: 2px solid #FFFFFF;
+    background: rgba(26, 25, 21, 0.0001);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border-radius: 25px;
+    width: 93px;
+    height: 39px;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.link-href-two{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.link-href{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.link{
+    max-width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-right: 3px;
+    margin: 0;
+    padding: 0;
+}
+.find{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.find-holiday-dreams{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 508px;
+    height: 127px;
+    max-width: 100%;
+}
+.find-partner{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 427px;
+    height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 100%;
+}
+.find-button{
+    width: 228px;
+    height: 43px;
+    background: #FF4E50;
+    border-radius: 25px;
+    border: none;
+    margin-top: 33px;
+    max-width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.find-button:hover{
+    cursor: pointer;
+}
+.partner{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    color: #333333;
+    margin-top: 64px;
+}
+.partners-exsemple{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.partner-name{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    color: #333333;
+    max-width: 100%;
+}
+.partner-content{ 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #666666;
+    width: 224px;
+}
+.img-partner{
+    margin-left: 50px;
+}
+.partner-column{
+    max-width: 100%;
+    list-style: none;
+}
+.button-two{
+    background: #FFFFFF;
+    border-radius: 25px;
+    border: 0;
+    border: 2px solid #FF4E50;
+    width: 180px;
+    height: 43px;
+    max-width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF4E50;
+}
+
+.wrapper-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}
+.button-two:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+.icon{
+    background: #FF4E50;
+}
+.icon-two{
+    background: #1CD7AD;
+}
+.icon-three{
+    background: #FFA507;
+}
+.icon-four{
+    background: #4E73DB;
+}
+.partner-icon-img{
+    width: 19px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.partner-img{
+    width: 120px;
+    height: 120px;
+    background: url(./desk-1\ 1.png) no-repeat;
+    margin-left: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    max-width: 100%;
+}
+.partner-one{
+    background: url(./desk-2\ 1.png) no-repeat;
+}
+.partner-two{
+    background: url(./desk-3\ 1.png) no-repeat;
+    margin-top: 35px;
+}
+.partner-three{
+    background: url(./desk-4\ 1.png) no-repeat;
+}
+.icon-class{
+    width: 35px;
+    height: 35px;
+    border: 4px solid #FFFFFF;
+    border-radius: 50%;
+    position: relative;
+}
+@media screen and (max-width: 768px) {
+    .partners-exsemple{
+        width: 470px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .header{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+}
+@media screen and (max-width: 480px) {
+    .partners-exsemple{
+        width: 240px;
+        margin: 0 auto;
+    }
+    .header{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .find-holiday-dreams{
+        font-size: 45px;
+    }
+    .button-two{
+        width: 280px;
+    }
+    .find-button{
+        width: 280px;
+    }
+    .find-partner{
+        line-height: 21px;
+        font-size: 23px;
+        font-weight: 300;
+    }
+    .links{
+        display: flex;
+        padding-bottom: 111px;
+        padding-left: 0;
+
+    }
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        margin: auto;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .logo{
+        width: 480px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
